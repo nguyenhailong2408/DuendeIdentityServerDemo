@@ -29,7 +29,7 @@ namespace DemoIdentityServer
                 RequireClientSecret = true,
                 ClientSecrets = { new Secret("secret".Sha256()) },
                 RedirectUris = new List<string> { "https://localhost:44342/signin-oidc" },
-                PostLogoutRedirectUris = new List<string> { "https://localhost:44342/auth/logoutcallback" },
+                PostLogoutRedirectUris = new List<string> { "https://localhost:44342/auth/callbacklogout" },
                 AllowedScopes = new List<string> { "openid", "profile", "api1", "offline_access" },
                 AllowOfflineAccess = true
             },
@@ -42,7 +42,7 @@ namespace DemoIdentityServer
                 RequireClientSecret = true,
                 ClientSecrets = { new Secret("secret".Sha256()) },
                 RedirectUris = new List<string> { "https://localhost:44357/signin-oidc" },
-                PostLogoutRedirectUris = new List<string> { "https://localhost:44357/auth/logoutcallback" },
+                PostLogoutRedirectUris = new List<string> { "https://localhost:44357/auth/callbacklogout" },
                 AllowedScopes = new List<string> { "openid", "profile", "api1", "offline_access" },
                 AllowOfflineAccess = true
             }

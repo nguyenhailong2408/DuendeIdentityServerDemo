@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WORKS\\ASPNETCORE\\DemoIdentityServer\\DemoIdentityServer.csproj": {}
+    "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\DemoIdentityServer\\DemoIdentityServer.csproj": {}
   },
   "projects": {
-    "D:\\WORKS\\ASPNETCORE\\DemoIdentityServer\\DemoIdentityServer.csproj": {
+    "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\DemoIdentityServer\\DemoIdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WORKS\\ASPNETCORE\\DemoIdentityServer\\DemoIdentityServer.csproj",
+        "projectUniqueName": "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\DemoIdentityServer\\DemoIdentityServer.csproj",
         "projectName": "DemoIdentityServer",
-        "projectPath": "D:\\WORKS\\ASPNETCORE\\DemoIdentityServer\\DemoIdentityServer.csproj",
+        "projectPath": "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\DemoIdentityServer\\DemoIdentityServer.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\WORKS\\ASPNETCORE\\DemoIdentityServer\\obj\\",
+        "outputPath": "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\DemoIdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

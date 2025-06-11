@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WORKS\\ASPNETCORE\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\WORKS\\ASPNETCORE\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WORKS\\ASPNETCORE\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\WORKS\\ASPNETCORE\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\WORKS\\ASPNETCORE\\WebApplication1\\obj\\",
+        "outputPath": "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

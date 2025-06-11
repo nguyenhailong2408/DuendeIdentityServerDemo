@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+hkvXqwMcBRhUmlXFr+um9y/5tpOlarz0XkVQLnqWySnEuiK8U8FZ5xoFG2o4A22f6LSwkeOt3OaBRKv0XIFLg==",
+  "dgSpecHash": "ECDJfNZdrvVvtZo3J5555SkyOKeL89zmUKqLDMhx/FVYvVUsAlrYJGoDPu6djxFSPwAyGwSrYCEYIEgrli0Ekw==",
   "success": true,
-  "projectFilePath": "D:\\WORKS\\ASPNETCORE\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "D:\\WORKS\\ASPNETCORE\\DuendeIdentityServerDemo\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
