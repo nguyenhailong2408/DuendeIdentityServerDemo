@@ -10,11 +10,12 @@ namespace DemoIdentityServer
             new IdentityResources.OpenId(),
             new IdentityResources.Profile(),
             };
-          
+
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
-            new ApiScope("api1", "Demo API")
+            new ApiScope("api1", "Demo API 1"),
+            new ApiScope("api2", "Demo API 2")
             };
 
         public static IEnumerable<Client> Clients =>
@@ -43,8 +44,18 @@ namespace DemoIdentityServer
                 ClientSecrets = { new Secret("secret".Sha256()) },
                 RedirectUris = new List<string> { "https://localhost:44357/signin-oidc" },
                 PostLogoutRedirectUris = new List<string> { "https://localhost:44357/auth/callbacklogout" },
-                AllowedScopes = new List<string> { "openid", "profile", "api1", "offline_access" },
+                AllowedScopes = new List<string> { "openid", "profile", "api2", "offline_access" },
                 AllowOfflineAccess = true
+            },
+            new Client
+            {
+                //This is declare of all webapi though ApiScope and AllowedScopes
+                ClientId = "webapi_all",
+                AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+                ClientSecrets = { new Secret("secret".Sha256()) },
+                AllowedScopes = { "api1", "api2", "offline_access" },
+                AllowOfflineAccess = true,
+                AccessTokenLifetime = 3600
             }
             };
     }
